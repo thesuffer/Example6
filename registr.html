@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="registr_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="title">LiLu</div>
+        <div class="icon">
+            <img id="icon2" src="./img/16.png" alt="">
+        </div>
+    </header>
+    <main>
+        <form>
+        <fieldset>
+            <legend>Регистрация</legend>
+            <label for="email">E-mail:</label><input name="email" type="text" placeholder="enter your e-mail" required/>
+            <br />
+            <span>Логин:</span><input type="login" placeholder="enter your login" required />
+            <br />
+            <span>Пароль:</span><input type="password" placeholder="enter your password" required />
+            <br />
+            <span>Дата рождения:</span><input type="date" required />
+            <br />
+            <span>Пол:</span>
+            <br />
+            <input type="radio" value="1" name="r1" id="radio1" /><label for="radio1">Мужской</label>
+            <br />
+            <input type="radio" value="2" name="r1" id="radio2"/><label for="radio2">Женский</label>
+            <br />
+            <span>Что Вы хотите найти на нем сайте?</span>
+            <input list="Reasons">
+            <datalist id="Reasons">
+                <option value="Найти вторую половинку">
+                <option value="Ничего серьезного">
+                <option value="Новых друзей"> 
+                <option value="Просто пообщаться">         
+                <option value="Пока не знаю">    
+            </datalist>
+            <br />
+        </fieldset>
+
+        <button type="submit">Регистрация</button>
+            
+        <button type="reset">Очистить</button>
+    </form>
+    </main>
+    <Footer> <div class="foot"><p>ОАО "Облачные знакомства"</p><p>Все права защищены</p></div></Footer>
+</body>
+</html>

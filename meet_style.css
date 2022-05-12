@@ -1,0 +1,148 @@
+.icon, .title {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.title {
+    font-size: 3em;
+    font-family: Snell Roundhand, cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: overline;
+    text-shadow: 5px 3px 3px rgb(19, 55, 255);
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    left:580px;
+    top:30px;
+    text-align: center;
+}
+
+
+@keyframes iconImg2 {
+    0%,60%,100% {position: relative;
+        height: 110px;
+        width: 270px;
+        top: 5px;}
+    45%{
+        height: 110px;
+        width: 320px;
+        transform: rotateZ(3deg);
+    }
+
+    90% {
+        height: 110px;
+        width: 320px;
+        transform: rotateZ(-3deg);
+    }
+}
+
+
+.icon, #icon2{
+    position: relative;
+    height: 110px;
+    width: 270px;
+    top: 3px;
+    left:233px;
+    animation: iconImg2 5s infinite;
+}
+
+
+
+.users {
+    width: 1200px;
+    height: 800px;
+    display: inline-block;
+    font-family: Snell Roundhand, cursive;
+    color:rgb(0, 0, 0);
+}
+
+span {
+    font-family: Snell Roundhand, cursive;
+    color:rgb(0, 0, 0);
+}
+
+.user1, .user2, .user3, .user4 {
+    height: 300px;
+    width: 230px;
+    float:left;
+    margin: 2em;
+}
+
+.user1 {
+    background-image:  url(./img/a1.jpg);
+    background-size: 16em;
+    background-repeat: no-repeat;
+}
+
+.user1 p {
+    margin: 0;
+}
+.user1 .info {
+    position: absolute;
+    bottom: 85px;
+}
+
+.user2 {
+    background-image:  url(./img/a2.jpg);
+    background-size: 12.8em;
+    background-repeat: no-repeat;
+}
+
+.user2 p {
+    margin: 0;
+}
+.user2 .info2 {
+    position: absolute;
+    bottom: 85px;
+}
+
+.user3 {
+    background-image:  url(./img/a3.jpg);
+    background-size: 9.8em;
+    background-repeat: no-repeat;
+}
+
+.user3 p {
+    margin: 0;
+}
+.user3 .info3 {
+    position: absolute;
+    bottom: 85px;
+}
+
+.user4 {
+    background-image:  url(./img/a4.jfif);
+    background-size: 25em;
+    background-repeat: no-repeat;
+}
+
+.user4 p {
+    margin: 0;
+}
+.user4 .info4 {
+    position: absolute;
+    bottom: 85px;
+}
+
+button {
+    margin: 1em;
+    border-radius: 40%;
+    font-family: Snell Roundhand, cursive;
+    color:rgb(57, 83, 228);
+    border-style: none;
+    background-color:azure;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 150px;
+}
+footer .foot {
+    position: absolute;
+    bottom:0px;
+    text-align: center;
+    width:100%;
+    top:600px;
+    font-family: Snell Roundhand, cursive;
+    color: rgb(57, 83, 228);
+    }

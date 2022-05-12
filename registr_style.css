@@ -1,0 +1,82 @@
+.icon, .title {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.title {
+    font-size: 3em;
+    font-family: Snell Roundhand, cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: overline;
+    text-shadow: 5px 3px 3px rgb(19, 55, 255);
+    display: inline;
+    position: absolute;
+    z-index: 2;
+    left:580px;
+    top:30px;
+    text-align: center;
+}
+
+
+@keyframes iconImg2 {
+    0%,60%,100% {position: relative;
+        height: 110px;
+        width: 270px;
+        top: 5px;}
+    45%{
+        height: 110px;
+        width: 320px;
+        transform: rotateZ(3deg);
+    }
+
+    90% {
+        height: 110px;
+        width: 320px;
+        transform: rotateZ(-3deg);
+    }
+}
+
+
+.icon, #icon2{
+    position: relative;
+    height: 110px;
+    width: 270px;
+    top: 3px;
+    left:233px;
+    animation: iconImg2 5s infinite;
+}
+
+fieldset {
+    margin-top: 3em;
+    border-color:rgb(149, 210, 245);
+    font-family: Snell Roundhand, cursive;
+    color:rgb(57, 83, 228);
+    border-style: dotted;
+}
+
+
+input {
+    margin: 1em;
+    border-style: none;
+}
+
+button {
+    margin: 1em;
+    border-radius: 40%;
+    font-family: Snell Roundhand, cursive;
+    color:rgb(57, 83, 228);
+    border-style: none;
+    background-color:azure;
+}
+
+footer .foot {
+    position: absolute;
+    bottom:0px;
+    text-align: center;
+    width:100%;
+    top:600px;
+    font-family: Snell Roundhand, cursive;
+    color: rgb(57, 83, 228);
+    }
+
